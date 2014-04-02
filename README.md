@@ -34,6 +34,7 @@ o catgs.exe   como o valor.
 
 
 -
+Depois que o PATH no Windows estiver funcionando corretamente, 
 Se nao quiser digitar :!ctags -R . poderá colocar um atalho no seu arquivo vimrc:
-       `` nmap <silent> <F4> :!ctags -R --languages=php .<CR>
+       ``` nmap <silent> <F4> :!ctags -R --languages=php .<CR> ```
         
