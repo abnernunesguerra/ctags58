@@ -33,4 +33,7 @@ o catgs.exe   como o valor.
 7.    Reabra a janela o GVim e no seu projeto de teste execute o comando :!ctags -R .
 
 
-
+-
+Se nao quiser digitar :!ctags -R . poderá colocar um atalho no seu arquivo vimrc:
+        nmap <silent> <F4> :!ctags -R --languages=php .<CR>
+        
